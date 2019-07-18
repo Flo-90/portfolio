@@ -1,0 +1,19 @@
+.skill {
+   margin-bottom: 20px; 
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    border: 1px solid rgba(67, 67, 67, .5);
+}
+
+.skill-title {
+    margin: 0 0 5px 0;
+}
+
+.skill-level {
+    background: #7bc68c;
+    width: 50%;
+    height: 100%;
+}

@@ -1,0 +1,49 @@
+header {
+    text-align: center;
+}
+
+header h1, header h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+header h1::before, header h1::after {
+    color: #0c5f67;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 12px 15px;
+}
+
+header h1::before {
+    content: '<h1>';
+}
+
+header h1::after {
+    content: '</h1>';
+}
+
+header h2 {
+    font-size: 20px;
+    font-weight: 200;
+    color: #616161;
+}
+
+header h2::before, header h2::after {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0 5px;
+}
+
+header h2::before {
+    content: '<!--';
+}
+
+header h2::after {
+    content: '-->';
+}

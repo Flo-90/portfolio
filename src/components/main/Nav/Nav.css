@@ -1,0 +1,22 @@
+nav {
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    font-size: 25px;
+    color: #3f70b1;
+    cursor: pointer;
+}
+
+nav ul li+li::before {
+    content: '/\00a0';
+    color: #cfcfcf;
+    cursor: auto;
+}

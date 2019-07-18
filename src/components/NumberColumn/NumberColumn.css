@@ -1,0 +1,20 @@
+.number-column {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .number-column div {
+    height: 20px;
+    width: 20px;
+    font-size: 11px;
+    padding: 0 0 1px 1px;
+    color: #707070;
+  }
+  
+  .number-column div:first-child {
+    margin-top: 3px;
+  }

@@ -1,0 +1,9 @@
+.list-body {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+.list-body li {
+    line-height: 25px;
+}
